@@ -1,7 +1,4 @@
 layers:
-  - name: osm
-    title: Omniscale OSM WMS - osm.omniscale.net
-    sources: [osm_cache]
   - name: niger_mar_2010_321
     title: Landsat Niger March 2010 bands 321
     sources: [niger_mar_2010_321_cache]
