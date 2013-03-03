@@ -1,0 +1,15 @@
+sources:
+  osm_wms:
+    type: wms
+    req:
+      url: http://osm.omniscale.net/proxy/service?
+      layers: osm
+  niger_mar_2010_321_source:
+    type: mapserver
+    supported_srs: ['EPSG:3857']
+    req:
+      layers: niger_mar_2010_321
+      map: './mapfile.map'
+    coverage:
+      polygons: 'wkt/niger_mar_2010.wkt'
+      polygons_srs: 'EPSG:4326'

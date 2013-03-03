@@ -1,0 +1,11 @@
+caches:
+  osm_cache:
+    grids: [GLOBAL_MERCATOR]
+    sources: [osm_wms]
+  niger_mar_2010_321_cache:
+    grids: [z13]
+    sources: [niger_mar_2010_321_source]
+    format: image/png
+    cache:
+      type: file
+      directory_layout: tms

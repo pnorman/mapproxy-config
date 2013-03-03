@@ -16,7 +16,7 @@ globals:
   # Point at the correct binary
   mapserver:
     binary: '../mapserv'
-    working_dir: '../mapserv'
+    working_dir: '../'
 
   # image/transformation options
   image:
