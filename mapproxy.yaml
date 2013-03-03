@@ -15,8 +15,8 @@ globals:
 
   # Point at the correct binary
   mapserver:
-    binary: /home/pnorman/mapserver/mapserv
-    working_dir: /home/pnorman/mapserver/mapserv
+    binary: '../mapserv'
+    working_dir: '../mapserv'
 
   # image/transformation options
   image:
