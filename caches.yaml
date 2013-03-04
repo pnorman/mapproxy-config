@@ -6,3 +6,17 @@ caches:
     cache:
       type: file
       directory_layout: tms
+  niger_mar_2010_432_cache:
+    grids: [z13]
+    sources: [niger_mar_2010_432_source]
+    format: image/png
+    cache:
+      type: file
+      directory_layout: tms
+  niger_mar_2010_742_cache:
+    grids: [z13]
+    sources: [niger_mar_2010_742_source]
+    format: image/png
+    cache:
+      type: file
+      directory_layout: tms

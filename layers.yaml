@@ -2,4 +2,10 @@ layers:
   - name: niger_mar_2010_321
     title: Landsat Niger March 2010 bands 321
     sources: [niger_mar_2010_321_cache]
+  - name: niger_mar_2010_432
+    title: Landsat Niger March 2010 bands 432
+    sources: [niger_mar_2010_432_cache]
+  - name: niger_mar_2010_742
+    title: Landsat Niger March 2010 bands 742
+    sources: [niger_mar_2010_742_cache]
 

@@ -8,3 +8,21 @@ sources:
     coverage:
       polygons: 'wkt/niger_mar_2010.wkt'
       polygons_srs: 'EPSG:4326'
+  niger_mar_2010_432_source:
+    type: mapserver
+    supported_srs: ['EPSG:3857']
+    req:
+      layers: niger_mar_2010_432
+      map: './mapfile.map'
+    coverage:
+      polygons: 'wkt/niger_mar_2010.wkt'
+      polygons_srs: 'EPSG:4326'
+  niger_mar_2010_742_source:
+    type: mapserver
+    supported_srs: ['EPSG:3857']
+    req:
+      layers: niger_mar_2010_742
+      map: './mapfile.map'
+    coverage:
+      polygons: 'wkt/niger_mar_2010.wkt'
+      polygons_srs: 'EPSG:4326'

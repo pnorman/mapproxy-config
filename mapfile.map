@@ -3,11 +3,10 @@ MAP
 	CONFIG "MS_ERRORFILE" "/home/pnorman/mapproxy/log/mapserv.txt"
 	DEBUG 0
 	EXTENT -20037508.3428 -20037508.3428 20037508.3428 20037508.3428
-	IMAGECOLOR 127 127 127
+	IMAGECOLOR 0 0 0
 	IMAGETYPE png
 	MAXSIZE 4000
 	STATUS ON
-	SIZE 400 300
 	PROJECTION
 		"init=epsg:3857"
 	END
@@ -19,13 +18,23 @@ MAP
 	LAYER
 		STATUS ON
 		TYPE RASTER
-		PROCESSING "RESAMPLE=BILINEAR"
 		NAME "niger_mar_2010_321"
 		DATA "/home/pnorman/imagery/hot/mali/niger_mar_2010_321.tif"
-		PROJECTION
-			"init=epsg:3857"
-		END
-		UNITS METERS
+		PROCESSING "RESAMPLE=BILINEAR"
+	END
+	LAYER
+		STATUS ON
+		TYPE RASTER
+		NAME "niger_mar_2010_432"
+		DATA "/home/pnorman/imagery/hot/mali/niger_mar_2010_432.tif"
+		PROCESSING "RESAMPLE=BILINEAR"
+	END
+	LAYER
+		STATUS ON
+		TYPE RASTER
+		NAME "niger_mar_2010_742"
+		DATA "/home/pnorman/imagery/hot/mali/niger_mar_2010_742.tif"
+		PROCESSING "RESAMPLE=BILINEAR"
 	END
 	OUTPUTFORMAT
 		NAME "png"
