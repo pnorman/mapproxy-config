@@ -20,3 +20,24 @@ caches:
     cache:
       type: file
       directory_layout: tms
+  niger_oct_2012_321_cache:
+    grids: [z13]
+    sources: [niger_oct_2012_321_source]
+    format: image/png
+    cache:
+      type: file
+      directory_layout: tms
+  niger_oct_2012_432_cache:
+    grids: [z13]
+    sources: [niger_oct_2012_432_source]
+    format: image/png
+    cache:
+      type: file
+      directory_layout: tms
+  niger_oct_2012_742_cache:
+    grids: [z13]
+    sources: [niger_oct_2012_742_source]
+    format: image/png
+    cache:
+      type: file
+      directory_layout: tms

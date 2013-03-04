@@ -26,3 +26,31 @@ sources:
     coverage:
       polygons: 'wkt/niger_mar_2010.wkt'
       polygons_srs: 'EPSG:4326'
+
+  niger_oct_2012_321_source:
+    type: mapserver
+    supported_srs: ['EPSG:3857']
+    req:
+      layers: niger_oct_2012_321
+      map: './mapfile.map'
+    coverage:
+      polygons: 'wkt/niger_mar_2010.wkt'
+      polygons_srs: 'EPSG:4326'
+  niger_oct_2012_432_source:
+    type: mapserver
+    supported_srs: ['EPSG:3857']
+    req:
+      layers: niger_oct_2012_432
+      map: './mapfile.map'
+    coverage:
+      polygons: 'wkt/niger_mar_2010.wkt'
+      polygons_srs: 'EPSG:4326'
+  niger_oct_2012_742_source:
+    type: mapserver
+    supported_srs: ['EPSG:3857']
+    req:
+      layers: niger_oct_2012_742
+      map: './mapfile.map'
+    coverage:
+      polygons: 'wkt/niger_mar_2010.wkt'
+      polygons_srs: 'EPSG:4326'

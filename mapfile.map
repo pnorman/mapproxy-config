@@ -36,6 +36,30 @@ MAP
 		DATA "/home/pnorman/imagery/hot/mali/niger_mar_2010_742.tif"
 		PROCESSING "RESAMPLE=BILINEAR"
 	END
+
+	LAYER
+		STATUS ON
+		TYPE RASTER
+		NAME "niger_oct_2012_321"
+		DATA "/home/pnorman/imagery/hot/mali/niger_oct_2012_321.tif"
+		PROCESSING "RESAMPLE=BILINEAR"
+	END
+	LAYER
+		STATUS ON
+		TYPE RASTER
+		NAME "niger_oct_2012_432"
+		DATA "/home/pnorman/imagery/hot/mali/niger_oct_2012_432.tif"
+		PROCESSING "RESAMPLE=BILINEAR"
+	END
+
+	LAYER
+		STATUS ON
+		TYPE RASTER
+		NAME "niger_oct_2012_742"
+		DATA "/home/pnorman/imagery/hot/mali/niger_oct_2012_742.tif"
+		PROCESSING "RESAMPLE=BILINEAR"
+	END
+
 	OUTPUTFORMAT
 		NAME "png"
 		DRIVER AGG/PNG
