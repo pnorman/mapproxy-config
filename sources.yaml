@@ -64,3 +64,21 @@ sources:
     coverage:
       polygons: 'wkt/bc_landsat_oct_2012.wkt'
       polygons_srs: 'EPSG:4326'
+  bc_landsat_oct_2012_432_source:
+    type: mapserver
+    supported_srs: ['EPSG:3857']
+    req:
+      layers: bc_landsat_oct_2012_432
+      map: './mapfile.map'
+    coverage:
+      polygons: 'wkt/bc_landsat_oct_2012.wkt'
+      polygons_srs: 'EPSG:4326'
+  bc_landsat_oct_2012_742_source:
+    type: mapserver
+    supported_srs: ['EPSG:3857']
+    req:
+      layers: bc_landsat_oct_2012_742
+      map: './mapfile.map'
+    coverage:
+      polygons: 'wkt/bc_landsat_oct_2012.wkt'
+      polygons_srs: 'EPSG:4326'

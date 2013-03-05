@@ -22,3 +22,9 @@ layers:
   - name: bc_landsat_oct_2012_321
     title: Landsat BC October 2012 bands 321
     sources: [bc_landsat_oct_2012_321_cache]
+  - name: bc_landsat_oct_2012_432
+    title: Landsat BC October 2012 bands 432
+    sources: [bc_landsat_oct_2012_432_cache]
+  - name: bc_landsat_oct_2012_742
+    title: Landsat BC October 2012 bands 742
+    sources: [bc_landsat_oct_2012_742_cache]
