@@ -54,3 +54,10 @@ sources:
     coverage:
       polygons: 'wkt/niger_mar_2010.wkt'
       polygons_srs: 'EPSG:4326'
+
+  bc_landsat_oct_2012_321_source:
+    type: mapserver
+    supported_srs: ['EPSG:3857']
+    req:
+      layers: bc_landsat_oct_2012_321
+      map: './mapfile.map'

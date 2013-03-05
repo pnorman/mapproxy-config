@@ -41,3 +41,11 @@ caches:
     cache:
       type: file
       directory_layout: tms
+
+  bc_landsat_oct_2012_321_cache:
+    grids: [z13]
+    sources: [bc_landsat_oct_2012_321_source]
+    format: image/png
+    cache:
+      type: file
+      directory_layout: tms
