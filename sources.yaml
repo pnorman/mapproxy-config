@@ -61,3 +61,6 @@ sources:
     req:
       layers: bc_landsat_oct_2012_321
       map: './mapfile.map'
+    coverage:
+      polygons: 'wkt/bc_landsat_oct_2012.wkt'
+      polygons_srs: 'EPSG:4326'
