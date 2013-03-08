@@ -82,3 +82,13 @@ sources:
     coverage:
       polygons: 'wkt/bc_landsat_oct_2012.wkt'
       polygons_srs: 'EPSG:4326'
+
+  madagascar_mar_4_2013_source:
+    type: mapserver
+    supported_srs: ['EPSG:3857']
+    req:
+      layers: madagascar_mar_4_2013
+      map: './mapfile.map'
+    coverage:
+      polygons: 'wkt/madagascar_mar_4_2013.wkt'
+      polygons_srs: 'EPSG:4326'

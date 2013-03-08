@@ -84,6 +84,14 @@ MAP
 		PROCESSING "LUT=31:75, 63:179, 95:210, 127:224, 159:237, 191:244, 223:251"
 	END
 
+	LAYER
+		STATUS ON
+		TYPE RASTER
+		NAME "madagascar_mar_4_2013"
+		DATA "/home/pnorman/imagery/hot/madagascar/aster_mar_4_2013.tif"
+		PROCESSING "RESAMPLE=BILINEAR"
+	END
+
 	OUTPUTFORMAT
 		NAME "png"
 		DRIVER AGG/PNG

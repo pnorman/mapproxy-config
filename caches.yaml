@@ -63,3 +63,11 @@ caches:
     cache:
       type: file
       directory_layout: tms
+
+  madagascar_mar_4_2013_cache:
+    grids: [z13]
+    sources: [madagascar_mar_4_2013_source]
+    format: image/png
+    cache:
+      type: file
+      directory_layout: tms

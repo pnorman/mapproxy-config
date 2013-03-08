@@ -28,3 +28,6 @@ layers:
   - name: bc_landsat_oct_2012_742
     title: Landsat BC October 2012 bands 742
     sources: [bc_landsat_oct_2012_742_cache]
+  - name: madagascar_mar_4_2013
+    title: madagascar ASTER mar_4_2013
+    sources: [madagascar_mar_4_2013_cache]
