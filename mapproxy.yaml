@@ -11,7 +11,7 @@ globals:
     lock_dir: '../cache_data/locks'
 
     meta_size: [4, 4]
-    meta_buffer: 5
+    meta_buffer: 0
 
   # Point at the correct binary
   mapserver:
