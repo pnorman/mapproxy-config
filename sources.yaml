@@ -99,3 +99,6 @@ sources:
     req:
       layers: orb32536
       map: './mapfile.map'
+    coverage:
+      polygons: 'wkt/orb32536.wkt'
+      polygons_srs: 'EPSG:4326'

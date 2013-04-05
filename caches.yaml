@@ -71,3 +71,11 @@ caches:
     cache:
       type: file
       directory_layout: tms
+
+  orb32536_cache:
+    grids: [z17]
+    sources: [orb32536_source]
+    format: image/png
+    cache:
+      type: file
+      directory_layout: tms
