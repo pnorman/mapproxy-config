@@ -92,3 +92,10 @@ sources:
     coverage:
       polygons: 'wkt/madagascar_mar_4_2013.wkt'
       polygons_srs: 'EPSG:4326'
+
+  orb32536_source:
+    type: mapserver
+    supported_srs: ['EPSG:3857']
+    req:
+      layers: orb32536
+      map: './mapfile.map'

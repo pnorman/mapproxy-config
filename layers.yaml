@@ -31,3 +31,7 @@ layers:
   - name: madagascar_mar_4_2013
     title: madagascar ASTER mar_4_2013
     sources: [madagascar_mar_4_2013_cache]
+
+  - name: orb32536
+    title: Orbview 32536 (Asian Islands)
+    sources: [orb32536_source]
