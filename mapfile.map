@@ -95,7 +95,7 @@ MAP
 	LAYER
 		STATUS ON
 		TYPE RASTER
-		NAME "orb32536"
+		NAME "asian_islands1"
 		TILEINDEX "/home/pnorman/imagery/orbview/asian_islands1.shp"
 		TILEITEM "Location"
 		PROCESSING "LUT=31:31,63:68,95:113,127:161,159:204,191:236,191:236"

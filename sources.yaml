@@ -93,9 +93,9 @@ sources:
       polygons: 'wkt/madagascar_mar_4_2013.wkt'
       polygons_srs: 'EPSG:4326'
 
-  orb32536_source:
+  asian_islands1_source:
     type: mapserver
     supported_srs: ['EPSG:3857']
     req:
-      layers: orb32536
+      layers: asian_islands1
       map: './mapfile.map'

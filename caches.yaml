@@ -72,9 +72,9 @@ caches:
       type: file
       directory_layout: tms
 
-  orb32536_cache:
+  asian_islands1_cache:
     grids: [z17]
-    sources: [orb32536_source]
+    sources: [asian_islands1_source]
     format: image/png
     cache:
       type: file
