@@ -99,3 +99,10 @@ sources:
     req:
       layers: asian_islands1
       map: './mapfile.map'
+
+  plata_apr_2013_source:
+    type: mapserver
+    supported_srs: ['EPSG:3857']
+    req:
+      layers: plata_apr_2013
+      map: './mapfile.map'

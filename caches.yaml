@@ -79,3 +79,11 @@ caches:
     cache:
       type: file
       directory_layout: tms
+
+  plata_apr_2013_cache:
+    grids: [z17]
+    sources: [plata_apr_2013_source]
+    format: image/jpeg
+    cache:
+      type: file
+      directory_layout: tms

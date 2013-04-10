@@ -95,6 +95,13 @@ MAP
 	LAYER
 		STATUS ON
 		TYPE RASTER
+		NAME "plata_apr_2013"
+		DATA "/home/pnorman/imagery/hot/argentina/plata_apr_2013.tif"
+	END
+
+	LAYER
+		STATUS ON
+		TYPE RASTER
 		NAME "asian_islands1"
 		TILEINDEX "/home/pnorman/imagery/orbview/asian_islands1.shp"
 		TILEITEM "Location"
